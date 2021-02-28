@@ -23,9 +23,8 @@ useEffect(() => {
   return () => window.removeEventListener("resize", handleResize);
 });
 
-
   return (
-    <div className="App">
+    <div>
       <Background height={windowSize.height} width={windowSize.width}/>
       <Page />
     </div>

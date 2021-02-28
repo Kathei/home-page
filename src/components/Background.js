@@ -6,9 +6,14 @@ const Background = props => {
 
     const {width, height } = props
 
+    const styles = {
+        height: height,
+        overflow: "hidden"
+      }
+
     const squareWidth = width/9
     const squareRowLength = 9
-    const rows = Math.round(height/squareWidth)
+    const rows = Math.ceil(height/squareWidth)
     const rowArray = []
 
     let i = 0
@@ -16,7 +21,7 @@ const Background = props => {
         rowArray.push(<Row number={i} length={squareRowLength} squareWidth={squareWidth} />)
     }
 
-    return <div>{rowArray}</div>
+    return <div style={styles}>{rowArray}</div>
     
 }
 
