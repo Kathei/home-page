@@ -33,7 +33,7 @@ const linkStyle = {
 
 return (<div style={style}>
     <h1>Hello there!</h1>
-    <div style={textStyle}>This space is still under construction. In the meantime, go and download Carbon Donut for <a style={linkStyle} href="https://apps.apple.com/fi/app/carbon-donut/id1489241028" target="_blank" rel="noreferrer">iOS</a> or <a style={linkStyle} href="https://play.google.com/store/apps/details?id=com.sparksustainability.thedonut" target="_blank" rel="noreferrer">Android</a>.</div>
+    <div style={textStyle}>This site is still under construction. In the meantime, go and download Carbon Donut for <a style={linkStyle} href="https://apps.apple.com/fi/app/carbon-donut/id1489241028" target="_blank" rel="noreferrer">iOS</a> or <a style={linkStyle} href="https://play.google.com/store/apps/details?id=com.sparksustainability.thedonut" target="_blank" rel="noreferrer">Android</a>.</div>
 </div>
 )
 }
