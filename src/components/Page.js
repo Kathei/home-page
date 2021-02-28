@@ -5,7 +5,7 @@ const Page = () => {
 
 
 const style = {
-    backgroundColor: 'RGBA(255,255,255,0.99)',
+    backgroundColor: 'RGBA(255,255,255,0.98)',
     margin: 10, 
     padding: 80,
     position: 'absolute',
